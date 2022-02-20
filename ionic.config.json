@@ -1,0 +1,7 @@
+{
+  "name": "liturgical-calender",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
