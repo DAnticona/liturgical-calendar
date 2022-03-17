@@ -1,0 +1,27 @@
+<table class="calendar-item" *ngIf="!loading">
+  <tr class="row-item">
+    <td rowspan="2" class="col-item text-center">{{ calendar.dayMonth }}</td>
+    <td rowspan="2" class="col-item text-center">{{ calendar.dayWeek }}</td>
+    <td class="col-item celebration-title">{{ calendar.celebrationTitle }}</td>
+    <td rowspan="2" class="row-item celebration">
+      {{ calendar.celebrationType }}
+    </td>
+    <td
+      rowspan="2"
+      class="row-item liturgical-color text-center"
+      [ngClass]="{
+        'bg-green': calendar.color === 'ver',
+        'bg-white': calendar.color === 'bla',
+        'bg-purple': calendar.color === 'mor',
+        'bg-red': calendar.color === 'red'
+      }"
+    >
+      {{ calendar.color }}
+    </td>
+  </tr>
+  <tr class="row-item">
+    <td class="col-item readings">
+      {{ calendar.readings }}
+    </td>
+  </tr>
+</table>

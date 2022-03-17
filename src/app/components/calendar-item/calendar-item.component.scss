@@ -1,0 +1,55 @@
+.calendar-item {
+  font-size: 0.8rem;
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.row-item {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.col-item {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.celebration-title {
+  color: red;
+  font-weight: 600;
+}
+
+.readings {
+  font-weight: 600;
+}
+
+.celebration {
+  font-weight: 600;
+}
+
+.liturgical-color {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-red {
+  background-color: red;
+}

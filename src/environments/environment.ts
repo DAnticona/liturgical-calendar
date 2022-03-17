@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  CALENDAR_API_URL:
+    'http://calapi.inadiutorium.cz/api/v0/en/calendars/general-en',
 };
 
 /*
